@@ -9,10 +9,15 @@
 import UIKit
 
 class ViewController: UIViewController {
-
+    var page = 0
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        FeedManager.getBooks(page: 0, success: { (books) in
+            
+        }) { (failureString) in
+            
+        }
     }
 
     override func didReceiveMemoryWarning() {
