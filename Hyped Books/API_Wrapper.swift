@@ -22,9 +22,16 @@ class API_Wrapper: NSObject {
         components.host = kBaseURLHost
         components.path = kBaseURLPath + endpoint
         components.queryItems = parameters
+        print(components.url!)
         return URLRequest(url: components.url!)
     }
-
+    
+    class func bookURL(uuid: String) -> URL
+    {
+        let urlString = "https://bookmate.com/books/" + uuid
+        return URL(string: urlString)!
+    }
+    
     class func genericCompletetionHandler ( data : Data? , response : HTTPURLResponse? , error : NSError? ,  success : ( _ jsonResponse : JSON, _ sessionResponse:HTTPURLResponse) -> () , failure : ()-> ()  )
     {
         guard data != nil else { failure(); return }

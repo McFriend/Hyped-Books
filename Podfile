@@ -6,5 +6,6 @@ target 'Hyped Books' do
   use_frameworks!
 
   # Pods for Hyped Books
+  pod 'SDWebImage', '~> 4.2'
 
 end

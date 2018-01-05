@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B90A69961FFB419F00B4F6B0 /* FeedTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B90A69951FFB419F00B4F6B0 /* FeedTableViewController.swift */; };
+		B94E1F111FFF3FF3009537DC /* FeedTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B94E1F101FFF3FF2009537DC /* FeedTableViewCell.swift */; };
 		B974D6601FFAA1DC00A50736 /* API_Wrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = B974D65F1FFAA1DC00A50736 /* API_Wrapper.swift */; };
 		B974D6631FFAA83900A50736 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = B974D6621FFAA83900A50736 /* Extensions.swift */; };
 		B974D6651FFAA84100A50736 /* SwiftyJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = B974D6641FFAA84100A50736 /* SwiftyJSON.swift */; };
@@ -17,7 +19,6 @@
 		B974D66F1FFAB66600A50736 /* Cover.swift in Sources */ = {isa = PBXBuildFile; fileRef = B974D66E1FFAB66600A50736 /* Cover.swift */; };
 		B974D6711FFAB93F00A50736 /* Label.swift in Sources */ = {isa = PBXBuildFile; fileRef = B974D6701FFAB93F00A50736 /* Label.swift */; };
 		B9C34CEF1FFAA121001E5002 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9C34CEE1FFAA121001E5002 /* AppDelegate.swift */; };
-		B9C34CF11FFAA121001E5002 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9C34CF01FFAA121001E5002 /* ViewController.swift */; };
 		B9C34CF41FFAA121001E5002 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B9C34CF21FFAA121001E5002 /* Main.storyboard */; };
 		B9C34CF61FFAA121001E5002 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B9C34CF51FFAA121001E5002 /* Assets.xcassets */; };
 		B9C34CF91FFAA121001E5002 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B9C34CF71FFAA121001E5002 /* LaunchScreen.storyboard */; };
@@ -28,6 +29,9 @@
 		01AAB0F53D5B3B650E111BA7 /* Pods-Hyped Books.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Hyped Books.release.xcconfig"; path = "Pods/Target Support Files/Pods-Hyped Books/Pods-Hyped Books.release.xcconfig"; sourceTree = "<group>"; };
 		120B2B9B6FAF065DD5A814ED /* Pods_Hyped_Books.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Hyped_Books.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		2C261311ADF32EE95A2D2C96 /* Pods-Hyped Books.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Hyped Books.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Hyped Books/Pods-Hyped Books.debug.xcconfig"; sourceTree = "<group>"; };
+		B90A69951FFB419F00B4F6B0 /* FeedTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedTableViewController.swift; sourceTree = "<group>"; };
+		B94E1F101FFF3FF2009537DC /* FeedTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedTableViewCell.swift; sourceTree = "<group>"; };
+		B94E1F121FFF45D4009537DC /* Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Header.h; sourceTree = "<group>"; };
 		B974D65F1FFAA1DC00A50736 /* API_Wrapper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = API_Wrapper.swift; sourceTree = "<group>"; };
 		B974D6621FFAA83900A50736 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 		B974D6641FFAA84100A50736 /* SwiftyJSON.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftyJSON.swift; sourceTree = "<group>"; };
@@ -39,7 +43,6 @@
 		B974D6701FFAB93F00A50736 /* Label.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Label.swift; sourceTree = "<group>"; };
 		B9C34CEB1FFAA121001E5002 /* Hyped Books.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Hyped Books.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B9C34CEE1FFAA121001E5002 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		B9C34CF01FFAA121001E5002 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		B9C34CF31FFAA121001E5002 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		B9C34CF51FFAA121001E5002 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B9C34CF81FFAA121001E5002 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -80,6 +83,7 @@
 			children = (
 				B974D6641FFAA84100A50736 /* SwiftyJSON.swift */,
 				B974D6621FFAA83900A50736 /* Extensions.swift */,
+				B94E1F121FFF45D4009537DC /* Header.h */,
 			);
 			path = Helpers;
 			sourceTree = "<group>";
@@ -113,7 +117,8 @@
 				B974D66C1FFAB5D900A50736 /* Author.swift */,
 				B974D66E1FFAB66600A50736 /* Cover.swift */,
 				B974D6701FFAB93F00A50736 /* Label.swift */,
-				B9C34CF01FFAA121001E5002 /* ViewController.swift */,
+				B90A69951FFB419F00B4F6B0 /* FeedTableViewController.swift */,
+				B94E1F101FFF3FF2009537DC /* FeedTableViewCell.swift */,
 				B9C34CF21FFAA121001E5002 /* Main.storyboard */,
 				B9C34CF51FFAA121001E5002 /* Assets.xcassets */,
 				B9C34CF71FFAA121001E5002 /* LaunchScreen.storyboard */,
@@ -234,11 +239,11 @@
 			);
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-Hyped Books/Pods-Hyped Books-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
+				"${BUILT_PRODUCTS_DIR}/SDWebImage/SDWebImage.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SDWebImage.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -253,8 +258,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				B974D66B1FFAB1FA00A50736 /* Book.swift in Sources */,
-				B9C34CF11FFAA121001E5002 /* ViewController.swift in Sources */,
+				B94E1F111FFF3FF3009537DC /* FeedTableViewCell.swift in Sources */,
 				B974D6691FFAB01700A50736 /* BooksOperation.swift in Sources */,
+				B90A69961FFB419F00B4F6B0 /* FeedTableViewController.swift in Sources */,
 				B974D66F1FFAB66600A50736 /* Cover.swift in Sources */,
 				B974D6711FFAB93F00A50736 /* Label.swift in Sources */,
 				B974D66D1FFAB5D900A50736 /* Author.swift in Sources */,
@@ -401,12 +407,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 36LYNA94EE;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = "Hyped Books/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.gs.Hyped-Books";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Hyped Books/Helpers/Header.h";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -418,12 +425,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 36LYNA94EE;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = "Hyped Books/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.gs.Hyped-Books";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Hyped Books/Helpers/Header.h";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
